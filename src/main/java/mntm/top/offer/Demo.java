@@ -30,7 +30,6 @@ public class Demo {
 
     private void testNio() throws IOException {
 
-
         RandomAccessFile accessFile = new RandomAccessFile("/data/nio.txt", "rw");
         FileChannel channel = accessFile.getChannel();
 
