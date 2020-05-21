@@ -62,6 +62,12 @@
             <artifactId>aliyun-java-sdk-ecs</artifactId>
             <version>4.17.6</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.3</version>
+        </dependency>
     </dependencies>
 
     <build>
