@@ -11,7 +11,7 @@ import org.apache.commons.lang3.StringUtils;
  **/
 public class LongestPalindrome {
 
-    public String solution(String s) {
+    public String dynamic(String s) {
         if(s.length() < 2){
             return s;
         }
@@ -48,5 +48,9 @@ public class LongestPalindrome {
         }
 
         return s.substring(begin, begin + maxLen);
+    }
+
+    public String  expandAroundCenter(String s){
+        return null;
     }
 }
