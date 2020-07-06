@@ -36,7 +36,9 @@ public class ReversePairs {
 
     private int count = 0;
     public  int[] mergingSort(int[] arr) {
-        if (arr.length <= 1) return arr;
+        if (arr.length <= 1) {
+            return arr;
+        }
 
         int num = arr.length >> 1;
         int[] leftArr = Arrays.copyOfRange(arr, 0, num);
